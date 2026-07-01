@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Quiz para medir seu nível de capivarice!</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Um quiz interativo para descobrir seu nível de conhecimento sobre capivaras!">
+    </head>
+    <body>
+        <header> 
+            <h1>Quiz interativo para humanos: Teste seus conhecimentos sobre capivaras!</h1>
+            <p><em>Boa sorte... e lembre-se: consultar uma capivara nesse teste é considerado trapaça.</em></p>
+        </header>
+        <main>
+            <!-- Introdução -->
+            <section>
+                <h2>Sobre esse quiz</h2>
+                <p><strong>Bem-vindo ao Teste Oficial de <abbr title="nome dado ao conjunto de hábitos e comportamentos típicos de uma capivara">Capivarice</abbr></strong>!<br>Aqui você encontrará perguntas <em>duvidosas </em>sobre esse <em>queridoh</em> da fauna brasileira. Algumas vão testar seus conhecimentos, outras vão colocar sua memória à prova... e talvez até o seu bom senso.</p>
+                <p>No final, <strong>some sua pontuação e consulte a tabela </strong> para descobrir se você ainda é um <strong>Iniciante no mundo das capivaras </strong> ou se já pode receber o cobiçado título de <strong>Especialista em Capivarices!</strong></p>
+            </section>
+            <!-- Pergunta 1: múltipla escolha -->
+            <section>
+                <h3>Pergunta 1. O que as capivaras comem principalmente?</h3>
+                <form>
+                    <input type="radio" value="Apenas frutas" id="p1a" name="pergunta1">
+                    <label for="p1a">Apenas frutas</label><br>
+                    <input type="radio" value="Carnes" id="p1b" name="pergunta1">
+                    <label for="p1b">Carnes</label><br>
+                    <input type="radio" value="Capim e outras plantas" id="p1c" name="pergunta1">
+                    <label for="p1c">Capim e outras plantas</label><br>
+                </form>
+            </section>
+            <!-- Pergunta 2: texto -->
+            <section>  
+                <h3>Pergunta 2. Até quanto uma capivara pode ter de altura?</h3>
+                <form>  
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta aqui"> 
+                </form>
+            </section>
+            <!-- Pergunta 3: senha -->
+            <section>
+                <h3>Pergunta 3. Digite a senha secreta das capivaras:<br><h6> Dica: começa com “calmasempre” e termina com "123"</h6></h3>
+                <form>
+                    <input type="password" id="p3" name="pergunta3" placeholder="Digite a senha aqui">
+                </form>
+            </section>
+            <!-- Pergunta 4: data -->
+            <section>
+                <h3>Pergunta 4. Em que data é celebrado o “Dia da Capivara” em algumas ações ambientais no Brasil?</h3>
+                <form>
+                    <input type="date" id="p4" name="pergunta4">
+                </form>
+            </section>
+            <!-- Pergunta 5: seleção múltipla -->
+            <section>
+                <h3>Pergunta 5. Quais dessas características MAIS combinam com uma capivara?</h3>
+                <form>
+                    <input type="checkbox" value="Dormir" id="p5a" name="pergunta5">
+                    <label for="p5a">Dormir</label><br>
+                    <input type="checkbox" value="Tomar banho de sol" id="p5b" name="pergunta5">
+                    <label for="p5b">Tomar banho de sol</label><br>
+                    <input type="checkbox" value="Ser rápido, agitado e sempre em movimento" id="p5c" name="pergunta5">
+                    <label for="p5c">Ser rápido, agitado e sempre em movimento</label><br>
+                    <input type="checkbox" value="Comer frutas" id="p5d" name="pergunta5">
+                    <label for="p5d">Comer frutas</label><br>
+                </form>
+            </section>
+            <!-- Pergunta 6: upload de arquivo -->
+            <section>
+                <h3>Pergunta 6. Faça o upload de uma imagem em png que contenha uma capivara fofinha</h3>
+                <form>
+                    <input type="file" id="p6" name="pergunta6" accept="image/png">
+                </form>
+            </section>
+            <!-- Pergunta 7: menu suspenso-->
+            <section>
+                <h3>Pergunta 7. O que uma capivara provavelmente faria se ganhasse um dia livre na cidade?</h3>
+                <form>
+                    <select id="p7" name="pergunta7">
+                        <option value="0">Selecione uma opção</option>
+                        <option value="1">Opção 1: Entrar em uma academia e treinar pesado</option>
+                        <option value="2">Opção 2: Comprar roupas estilosas e ir a uma festa</option>
+                        <option value="3">Opção 3: Explorar tudo curioso e cheirar cada canto</option>
+                        <option value="4">Opção 4: Virar viral na internet sem querer</option>
+                    </select>
+                </form>
+            </section>
+            <!-- Pergunta 8: imagem -->
+            <section>
+                <h3>Pergunta 8. Qual dessas imagens representa melhor o espírito de uma capivara?</h3>
+                <form>
+                    <input type="radio" value="1" id="p8a" name="pergunta8">
+                    <label for="p8a"><figure> Capivara Fada </figure><img src="/assets/capivara1.jpg" alt="Capivara fada"></label><br>
+                    <input type="radio" value="2" id="p8b" name="pergunta8">
+                    <label for="p8b"><figure> Capivara Egirl </figure><img src="/assets/capivara2.jpg" alt="Capivara egirl"></label><br>
+                    <input type="radio" value="3" id="p8c" name="pergunta8">
+                    <label for="p8c"><figure> Capivara Caipira </figure><img src="/assets/capivara3.jpg" alt="Capivara caipira"></label><br>
+                </form>
+            </section>
+            <!-- Pergunta 9: imagem -->
+            <section>
+                <h3>Pergunta 9. Se você pudesse dar nome a cada uma dessas capivaras, qual seriam?</h3>
+                <form>
+                    <input type="text" placeholder="Digite aqui o nome" name="pergunta9">
+                    <label for="p9a"><figure> Figura 1: <img src="/assets/capivara4.jpg" alt="Capivara 1"></figure></label><br>
+                    <input type="text" placeholder="Digite aqui o nome" name="pergunta9">
+                    <label for="p9b"><figure> Figura 2: <img src="/assets/capivara5.jpg" alt="Capivara 2"></figure></label><br>
+                    <input type="text" placeholder="Digite aqui o nome" name="pergunta9">
+                    <label for="p9c"><figure> Figura 3: <img src="/assets/capivara6.jpg" alt="Capivara 3"></figure></label><br>
+                </form>
+            </section>
+            <!-- Tabela de Pontuação -->
+            <section>
+                <h2>Tabela de Pontuação</h2>
+                <table border="2">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                   <tr >
+                    <td>0-2</td>
+                    <td>Nunca nem viu uma capivara!</td>
+                   </tr>
+                   <tr >
+                    <td>3-4</td>
+                    <td> Já viu uma capy de longe, muito muito longe... Iniciante no mundo das capivaras!</td>
+                   </tr>
+                   <tr >
+                    <td>5-7</td>
+                    <td> Já viu uma capy de perto, e até conversou com ela!</td>
+                   </tr>
+                   <tr >
+                    <td>8-10</td>
+                    <td> Começou a perder sua sanidade e agora só pensa em capivaras!!! </td>
+                   </tr>
+                   <tr >
+                    <td>11</td>
+                    <td> Você é uma capivara e Especialista em Capivarices!</td>
+                   </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Busque comer cimento!</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <section> 
+                <h2>Verifique suas respostas</h2>
+                <details>
+                    <summary>Clique aqui para ver as respostas</summary>
+                    <p>Respostas corretas:</p>
+                <ol> 
+                    <li> Capim e outras plantas </li>
+                    <li> 50 a 60 cm </li>
+                    <li> calmasempre123 </li>
+                    <li> 14/07 </li>
+                    <li> Dormir, Tomar banho de sol e Comer frutas </li>
+                    <li> Tem que ser uma linda capivara fofa! </li>
+                    <li> Virar viral na internet sem querer </li>
+                    <li> A da sua imaginação </li>
+                    <li> Figura 1: Capivara Dominação Figura 2: Capivara Havaiana Figura 3: Alfonso </li>
+                </ol>
+                </details>
+            </section>
+            <!-- Formulário de Feedback -->
+            <section>
+                <h2>Registro de Capivaras</h2>
+                <form>
+                <fieldset>
+                    <legend>ARAVIPAC</legend>
+                    <label for="nome da sua capivara">Nome da sua Capivara:</label><br>
+                    <input type="text" id="nome da sua capivara" name="nome da sua capivara" placeholder="Digite o nome da capivara"><br><br>
+
+                    <label for="email de capivara">Email de capivara:</label><br>
+                    <input type="email de capivara" id="email de capivara" name="email de capivara" placeholder="Digite seu email"><br><br>
+
+                    <label for="capivara"> Deixe sua capivara feedback  :</label><br>
+                    <textarea id="capivara" name="capivara" rows="4" cols="50" placeholder="Deixe sua capivara feedback aqui"></textarea><br><br>
+                    <button onclick="alert('Capivara enviada')" 
+                    <button type="submit">Enviar</button>
+                </fieldset>
+                </form>
+        </main>
+        <footer> 
+            <p> &copy; 2026, Lalinha Gamerzinha. Quiz de capivaras - BRASIL SIL. Todos os direitos capivarados. </p>
+            <p> Para se transformar em uma capivara <a href="https://youtube.com/shorts/Rit94pSB4A8?si=X5-Cc1VSf6qrkP75" target="_blank">clique aqui</a></p>
+            <p> Para conhecer mais sobre mim <a href="sobremim.html" target="_blank">clique aqui</a></p>
+        </footer>
+    </body>
+</html>
